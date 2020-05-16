@@ -49,7 +49,7 @@ The data file screenshot is shown down below. Each row represents a sensor measu
 
 `tools.cpp`: function to calculate RMSE and the Jacobian matrix
 
-####Relation between each files
+#### Relation between each files
 `main.cpp` reads in the data and sends a sensor measurement to `FusionEKF.cpp`
 	
 * The Term 2 simulator is a client, and the C++ program is a web server.
